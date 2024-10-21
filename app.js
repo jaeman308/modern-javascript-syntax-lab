@@ -11,7 +11,7 @@ const  numsTimesTwo = nums.map((currentElement) => {
     return currentElement * 2;
 });
 
-// console.log(numsTimesTwo);
+console.log(numsTimesTwo);
 
 
 //Question #2
@@ -23,8 +23,8 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 const [firstTopping, secondTopping] = pizzaToppings;
 
-// console.log(firstTopping);
-// console.log(secondTopping);
+console.log(firstTopping);
+console.log(secondTopping);
 
 //Question #3
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
@@ -38,8 +38,8 @@ const car = {
 
   const {make, model} = car;
 
-  // console.log(make);
-  // console.log(model);
+  console.log(make);
+  console.log(model);
   
 //Question #4
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
@@ -50,7 +50,7 @@ const pizzaTopping = ['Pineapple', 'Olives', 'Anchovies'];
 //I removed the s of the pizzaTopping to allow all of the code to work and not use the same variable for another excerise. 
 const controversialPizzaToppings = [...pizzaTopping];
 
-// console.log(controversialPizzaToppings);
+console.log(controversialPizzaToppings);
 
 //Question #5 
 // Duplicate the following object and spread its values into a new variable `myCar`.
@@ -68,8 +68,8 @@ const controversialPizzaToppings = [...pizzaTopping];
 
   myCar.model = 'q7';
 
-  // console.log('original', car);
-  // console.log('clone', myCar);
+  console.log('original', car);
+  console.log('clone', myCar);
 
   //Question #6
 // Create an object named userProfile. 
